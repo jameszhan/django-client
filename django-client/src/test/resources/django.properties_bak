@@ -1,0 +1,9 @@
+tokenUrl = http://127.0.0.1:3000/django/token
+uploadFileUrl = http://127.0.0.1:3000/django/file
+downloadFileUrl = http://127.0.0.1:3000/django/file
+transactionUrl = http://127.0.0.1:3000/django/transaction
+chunkUrl = http://127.0.0.1:3000/django/chunk
+metaUrl = http://api.django.t.taobao.com/rest/1.0/chunk/meta
+
+appKey = test1234
+appSecret = test1234

@@ -1,0 +1,1 @@
+http://docs.alibaba-inc.com/display/opentech/Django+API+1.0

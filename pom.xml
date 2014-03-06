@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.alibaba.shared</groupId>
+    <artifactId>django</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>django</name>
+    <url>http://maven.apache.org</url>
+
+
+    <properties>
+        <ant.version>1.9.3</ant.version>
+        <maven.version>3.2.1</maven.version>
+        <jetty.version>9.1.2.v20140210</jetty.version>
+        <slf4j.version>1.7.6</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
+        <jersey.version>1.18.1</jersey.version>
+        <junit.version>4.11</junit.version>
+        <mina.version>3.0.0-M2</mina.version>
+        <grizzly.version>1.9.59</grizzly.version>
+        <spring.version>4.0.2.RELEASE</spring.version>
+        <lucene.version>4.6.1</lucene.version>
+        <cxf.version>2.7.10</cxf.version>
+        <foundation.version>1.21.1</foundation.version>
+        <java_source_version>1.7</java_source_version>
+        <java_target_version>1.7</java_target_version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>django-client</module>
+    </modules>
+
+</project>
